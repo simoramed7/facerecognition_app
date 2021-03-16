@@ -10,10 +10,6 @@ import SignIn from './components/SignIn/signIn';
 import Register from './components/Register/register';
 import './App.css';
 
-const app = new Clarifai.App({
-  apiKey: '9d36007223eb44ca9434cab720fb209a'
- });
- 
 
 const particlesOptions = {
     particles: {
